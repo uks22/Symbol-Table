@@ -1,0 +1,29 @@
+begin
+    assign x 10
+    assign y 2043346634463
+    assign z 30
+        begin
+            assign y 40
+            assign z 50
+                begin
+                    assign x 60
+                    assign z 70
+                        begin 
+                            assign x 80
+                            assign y 90
+                            print x
+                            print y
+                            print z
+                        end
+                    print x
+                    print y
+                    print z
+                end
+            print x
+            print y
+            print z
+        end
+    print x
+    print y
+    print z
+end
